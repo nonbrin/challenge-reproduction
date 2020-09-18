@@ -1,0 +1,33 @@
+$cBlack: Black;
+$cWhite: White;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    
+    height: 100px;
+    background-color: $cBlack;
+    color: $cWhite;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    .title{
+        font-size: 1.5rem;
+        min-width: 300px;
+    }
+    .menu ul{
+        display: flex;
+        justify-content: space-around;
+        li{
+            list-style: none;
+            line-height: 100px;
+            padding: 0 10px;
+        }
+    }
+}
